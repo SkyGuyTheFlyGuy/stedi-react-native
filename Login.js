@@ -1,18 +1,19 @@
+import { enableExpoCliLogging } from "expo/build/logs/Logs";
 import React from "react";
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Card, ListItem, Button, Icon } from 'react-native-elements';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
-function Setting() {
+function Login() {
     return(
       <View>
       <Button
-      title="Alert message"
-      onPress={() => Alert.alert('Hello World!')}
+      title="Log In"
+      onPress={() => document.write("Hello")}
     />
       </View>
     )
   }
 
-export default Setting;
+export default Login
