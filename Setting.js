@@ -10,7 +10,7 @@ function Setting() {
       <View>
       <Button
       title="Log In"
-      onPress={() => Timer()}
+      onPress={() => Timer('Hello')}
     />
       </View>
     )
